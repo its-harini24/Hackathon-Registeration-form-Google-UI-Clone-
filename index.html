@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="box1">
+    <h1 id="hackathonForm">Hackathon Registration Form</h1>
+    <hr>
+    <p>
+        Welcome to the Annual College Hackathon! Please fill in the details below to register.
+        Registeration link
+    </p>
+<p class="note">
+    The name, email address and photo associated with your Google Account will be recorded when you upload files and submit this form.
+</p>
+   
+<div class="email-section">
+    <span class="email"><strong>harini@gmail.com</strong></span>
+    <a href="#">Switch account</a>
+    <span class="material-symbols-outlined cloud">
+cloud_done
+</span>
+</div>
+    <p id="r1">* Indicates required question</p>
+</div>
+<div class="record-email">
+    <label>
+        <input type="checkbox">
+        Record <strong>harini@gmail.com</strong> as the email to be included with my response.
+    </label>
+</div>
+<form id="hackathonForm">
+<div class="box2">
+    <h3>Full Name <span>*</span></h3>
+    <input type="text" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Register Number <span>*</span></h3>
+    <input type="text" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Department <span>*</span></h3>
+    <input type="text" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Year of Study <span>*</span></h3>
+    <select>
+        <option>Select</option>
+        <option>I Year</option>
+        <option>II Year</option>
+        <option>III Year</option>
+        <option>IV Year</option>
+    </select>
+</div>
+
+<div class="box3">
+    <h3>Email Address <span>*</span></h3>
+    <input type="email" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Phone Number <span>*</span></h3>
+    <input type="tel" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Team Name <span>*</span></h3>
+    <input type="text" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Project Title <span>*</span></h3>
+    <input type="text" placeholder="Your answer" required>
+</div>
+
+<div class="box3">
+    <h3>Project Domain <span>*</span></h3>
+
+    <input type="radio" name="domain"> AI/ML <br><br>
+    <input type="radio" name="domain"> Web Development <br><br>
+    <input type="radio" name="domain"> App Development <br><br>
+    <input type="radio" name="domain"> IoT <br><br>
+    <input type="radio" name="domain"> Cyber Security
+</div>
+
+<div class="box3">
+    <h3>Programming Languages Known</h3>
+    <label><input type="checkbox" name="domain"> Python</label>
+<label><input type="checkbox" name="domain">Java</label>
+<label><input type="checkbox" name="domain">C</label>
+<label><input type="checkbox" name="domain"> CPP</label>
+<label><input type="checkbox" name="domain"> Java Script</label>
+<label><input type="checkbox" name="domain"> Other</label>
+</div>
+
+<div class="box3">
+    <h3>Why do you want to participate?</h3>
+    <textarea rows="5" cols="50" placeholder="Your answer"></textarea>
+</div>
+
+<div class="button-container">
+    <button type="submit">Submit</button>
+     <a href="#" class="clear-form">Clear form</a>
+</div>
+<p id ="message"></p>
+</form>
+<script src="form.js"></script>
+</body>
+<p class="footer">
+    Never submit passwords through Google Forms.
+</p>
+
+<p class="google">
+    This content is neither created nor endorsed by Google.
+    <a href="#">Report Abuse</a> -
+    <a href="#">Terms of Service</a> -
+    <a href="#">Privacy Policy</a>
+</p>
+
+<h4 class="forms">Google Forms</h4>
+</html>
