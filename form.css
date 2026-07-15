@@ -13,11 +13,7 @@ body{
     display: flex;
     gap:12px;              
 }
-.record-email{
-    margin-top:15px;
-    font-size:14px;
-    color:#202124;
-}
+
 
 .record-email label{
     display:flex;
@@ -38,6 +34,8 @@ body{
     margin:15px 0;
     border-radius:8px;
     box-shadow:0 1px 3px rgba(0,0,0,0.15);
+    font-size: 14px;
+    color: #202124;
 }
 
 .cloud{
@@ -94,7 +92,9 @@ body{
 .box3{
     min-height:130px;
 }
-
+.box1,.box2,.box3,.record-email,.required-box,.button-container{
+    width: 600px;
+}
 h1{
     font-size:36px;
     font-weight:400;
@@ -117,13 +117,15 @@ p{
 }
 
 span{
-    color:#d93025;
+    color:#000000;
 }
-
+h3 span{
+    color:#d93025;
+    margin-left: 4px;
+}
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-select,
 textarea{
     width:100%;
     border:none;
@@ -133,7 +135,11 @@ textarea{
     font-family:'Roboto',sans-serif;
     background:transparent;
 }
-
+select{
+    width:auto;
+    min-width: 180px;
+    cursor: pointer;
+}
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
@@ -176,7 +182,7 @@ button:hover{
 .button-container{
     width:650px;
     margin-top:15px;
-     width:650px;
+     width:600px;
     display:flex;
     align-items:center;
 }
