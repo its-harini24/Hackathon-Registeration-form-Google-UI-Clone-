@@ -44,7 +44,7 @@ google-form-clone/
 
  Live Demo
 
-hackathon-registeration-form-google.vercel.app
+[view live demo]hackathon-registeration-form-google.vercel.app
 
 Author
 
