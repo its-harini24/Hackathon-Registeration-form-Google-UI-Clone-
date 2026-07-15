@@ -27,9 +27,7 @@ git clone https://github.com/its-harini24/google-form-clone.git
 
 Navigate to the project folder:
 
-
 cd google-form-clone
-
 
 Open `index.html` in your browser.
 
@@ -44,7 +42,7 @@ google-form-clone/
 
  Live Demo
 
-[view live demo]hackathon-registeration-form-google.vercel.app
+[view live demo]https://hackathon-registeration-form-google.vercel.app/
 
 Author
 
